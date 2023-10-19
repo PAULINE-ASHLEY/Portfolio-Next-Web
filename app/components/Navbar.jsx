@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import logo from './giraffe.png';
 import Link from 'next/link';
 
 export default function Navbar() {
@@ -9,18 +7,17 @@ export default function Navbar() {
       <div className="grid grid-cols-2 mx-10">
         {/* Logo Section */}
         <div className="flex flex-row items-center my-4">
-          <Image src={logo} width={40} height={40} alt={logo} quality={100} />
-          <p className="text-primary font-semibold text-2xl">Ash Coin</p>
+          <p className="text-primary text-2xl">Pauline Ondiek</p>
         </div>
         {/* Other section */}
-        <div className="flex flex-row-reverse gap-x-4">
-          <button className="bg-primary text-white px-4 text-xl font-semibold my-4 rounded-full">
-            <Link href="/">Sign In</Link>
+        <div className="flex flex-row-reverse gap-x-4 text-primary">
+          <button
+            type="button"
+            class="bg-gradient-to-r from-blue-300 to-blue-600 px-4 my-4 rounded-xl text-xl"
+          >
+            Contact
           </button>
-          <button className="bg-primary text-white px-4 text-xl font-semibold my-4 rounded-full">
-            <Link href="/">Sign Up</Link>
-          </button>
-          <ul className="md:flex hidden items-center gap-8 text-xl font-semibold">
+          <ul className="md:flex hidden items-center gap-8 text-xl">
             <li>
               <Link href="/" className="py-7 px-3 inline-block">
                 Home
@@ -28,17 +25,22 @@ export default function Navbar() {
             </li>
             <li>
               <Link href="/" className="py-7 px-3 inline-block">
-                Cryptocurrencies
+                About
               </Link>
             </li>
             <li>
               <Link href="/" className="py-7 px-3 inline-block">
-                NFT
+                Experience
               </Link>
             </li>
             <li>
               <Link href="/" className="py-7 px-3 inline-block">
-                Watchlist
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link href="/" className="py-7 px-3 inline-block">
+                Skills
               </Link>
             </li>
           </ul>
