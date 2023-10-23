@@ -1,27 +1,23 @@
 import React from 'react';
 import Link from 'next/link';
 import about from './about.png';
+import arrow from './arrow.png';
 import Image from 'next/image';
 
 export default function Portfolio() {
   return (
     <>
-      <h1 className="text-primary text-center text-2xl font-bold">PORTFOLIO</h1>
-      <div className="flex flex-roW gap-x-4 text-[#A9A9A9] justify-center">
-        <ul className="md:flex hidden items-center gap-8 text-xl">
+      <h1 className="text-primary text-center text-3xl font-bold">PORTFOLIO</h1>
+      <div className="flex flex-row gap-x-4 text-[#A9A9A9] justify-center">
+        <ul className="md:flex hidden items-center gap-8 text-2xl">
           <li>
             <Link href="/" className="py-7 px-3 inline-block">
-              Mobile App
+              React
             </Link>
           </li>
           <li>
             <Link href="/" className="py-7 px-3 inline-block">
-              Website
-            </Link>
-          </li>
-          <li>
-            <Link href="/" className="py-7 px-3 inline-block">
-              Desktop
+              WordPress
             </Link>
           </li>
           <li>
@@ -29,15 +25,10 @@ export default function Portfolio() {
               Other Projects
             </Link>
           </li>
-          <li>
-            <Link href="/" className="py-7 px-3 inline-block">
-              Skills
-            </Link>
-          </li>
         </ul>
       </div>
 
-      <div className="flex mt-6">
+      <div className="flex mt-6 justify-center items-center">
         <div className="w-[60%] mr-20">
           <h1 className="text-blue-600 text-2xl font-bold py-1">PROJECT 1</h1>
           <h1 className="text-primary text-2xl font-bold py-1">
@@ -53,7 +44,11 @@ export default function Portfolio() {
             software development life cycle (SDLC).
           </p>
           <div className="flex flex-row gap-x-6 pt-2">
-            <button type="button" class=" my-4 text-xl text-primary">
+            <button
+              type="button"
+              class=" my-4 text-xl text-primary flex gap-x-4"
+            >
+              <Image src={arrow} alt="arrow" />
               Read More
             </button>
           </div>
@@ -63,7 +58,7 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className="flex mt-20">
+      <div className="flex justify-center items-center mt-20">
         <div className="flex items-center justify-center w-[40%] border-8 border-solid border-blue-400 mx-20 p-6 rounded-xl">
           <Image src={about} alt="about" />
         </div>
@@ -82,7 +77,11 @@ export default function Portfolio() {
             software development life cycle (SDLC).
           </p>
           <div className="flex flex-row gap-x-6 pt-2">
-            <button type="button" class=" my-4 text-xl text-primary">
+            <button
+              type="button"
+              class=" my-4 text-xl text-primary flex gap-x-4"
+            >
+              <Image src={arrow} alt="arrow" />
               Read More
             </button>
           </div>

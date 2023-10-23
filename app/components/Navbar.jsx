@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="grid grid-cols-2 mx-10">
         {/* Logo Section */}
         <div className="flex flex-row items-center my-4">
-          <p className="text-primary text-2xl">Pauline Ondiek</p>
+          <p className="text-primary text-3xl">Pauline Ondiek</p>
         </div>
         {/* Other section */}
         <div className="flex flex-row-reverse gap-x-4 text-primary">
@@ -17,7 +17,7 @@ export default function Navbar() {
           >
             Contact
           </button>
-          <ul className="md:flex hidden items-center gap-8 text-xl">
+          <ul className="md:flex hidden items-center gap-8 text-2xl">
             <li>
               <Link href="/" className="py-7 px-3 inline-block">
                 Home

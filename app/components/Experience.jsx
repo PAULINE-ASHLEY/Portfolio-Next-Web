@@ -16,7 +16,7 @@ export default function Experience() {
             <h1 className="text-primary text-6xl font-normal py-2">
               DEVELOPER
             </h1>
-            <div className="pt-10">
+            <div className="pt-6">
               <Image src={square} width={20} height={20} alt="square" />
             </div>
           </div>

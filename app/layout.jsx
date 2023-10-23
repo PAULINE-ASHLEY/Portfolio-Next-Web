@@ -1,9 +1,9 @@
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import './globals.css';
-import { Lato } from 'next/font/google';
+import { Kalam } from 'next/font/google';
 
-const lato = Lato({ weight: '400', subsets: ['latin'] });
+const kalam = Kalam({ weight: '400', subsets: ['latin'] });
 
 export const metadata = {
   title: 'Pauline Ondiek Portfolio - Home',
@@ -13,14 +13,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="bg-[#121212] mx-10">
-      <body className={lato.className}>
+      <body className={kalam.className}>
         <div>
           <Navbar />
         </div>
         {children}
-        {/* <div>
+        <div>
           <Footer />
-        </div> */}
+        </div>
       </body>
     </html>
   );

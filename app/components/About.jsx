@@ -1,13 +1,13 @@
 import React from 'react';
-import about from './about.png';
+import computer from './computer.png';
 import Image from 'next/image';
 
 export default function About() {
   return (
     <>
       <div className="flex">
-        <div className="flex items-center justify-center w-[40%] border-2 border-solid border-blue-200 mx-20 p-6 rounded-xl">
-          <Image src={about} alt="about" />
+        <div className="w-[40%] px-4">
+          <Image src={computer} alt="computer" />
         </div>
         <div className="w-[60%] mr-20">
           <h1 className="text-primary text-3xl font-bold py-1">ABOUT ME</h1>
