@@ -6,13 +6,13 @@ import Portfolio from './components/Portfolio';
 export default function Home() {
   return (
     <>
-      <div className="px-10 py-20">
+      <div className="px-10 py-10">
         <Experience />
       </div>
       <div className="px-10 py-10">
         <About />
       </div>
-      <div className="px-10 py-10">
+      <div className="px-10 py-20">
         <Portfolio />
       </div>
     </>

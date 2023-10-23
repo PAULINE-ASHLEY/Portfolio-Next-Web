@@ -58,13 +58,13 @@ export default function Portfolio() {
             </button>
           </div>
         </div>
-        <div className="flex items-center justify-center w-[40%]">
+        <div className="flex items-center justify-center w-[40%] border-8 border-solid border-blue-400 mx-20 p-6 rounded-xl">
           <Image src={about} alt="about" />
         </div>
       </div>
 
-      <div className="flex mt-6">
-        <div className="flex items-center justify-center w-[40%]">
+      <div className="flex mt-20">
+        <div className="flex items-center justify-center w-[40%] border-8 border-solid border-blue-400 mx-20 p-6 rounded-xl">
           <Image src={about} alt="about" />
         </div>
         <div className="w-[60%] mr-20">
