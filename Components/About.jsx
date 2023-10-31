@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '@public/assets/images/about.png';
+import about3 from '@public/assets/images/about3.png';
 import Image from 'next/image';
 
 export default function About() {
@@ -7,11 +7,11 @@ export default function About() {
     <>
       <div className="flex items-center justify-center">
         <div className="w-[40%] px-4">
-          <Image src={about} alt="computer" />
+          <Image src={about3} alt="computer" className='w-[60%]' />
         </div>
         <div className="w-[60%]">
-          <h1 className="text-primary text-2xl font-bold py-1">ABOUT ME</h1>
-          <p className="text-[#A9A9A9] text-base pt-6">
+          <h1 className="text-primary text-2xl font-normal py-1">ABOUT ME</h1>
+          <p className="text-[#A9A9A9] text-base pt-6 font-normal">
             To obtain full time employment in a position that will allow me to
             utilize my experience in designing, implementing, testing, debugging
             and developing software solutions by use of the software development

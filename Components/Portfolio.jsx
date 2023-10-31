@@ -2,7 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import book from '@public/assets/images/book.png';
 import realestate from '@public/assets/images/realestate.png';
-import arrow from '@public/assets/images/arrow.png';
+import github from '@public/assets/images/github.png';
+import globe from '@public/assets/images/globe.png';
 import Image from 'next/image';
 
 export default function Portfolio() {
@@ -29,7 +30,7 @@ export default function Portfolio() {
         </ul>
       </div>
 
-      <div className="flex mt-10 justify-center items-center gap-x-10">
+      <div className="flex mt-6 justify-center items-center gap-x-10">
         <div className="w-[50%] gap-y-4">
           {/* <h1 className="text-blue-600 text-2xl font-bold py-1">PROJECT 1</h1> */}
           <h1 className="text-blue-600 text-xl font-bold py-1">
@@ -49,8 +50,8 @@ export default function Portfolio() {
               type="button"
               class=" my-4 text-base text-primary flex gap-x-4"
             >
-              <Image src={arrow} alt="arrow" width={20} />
-              Read More
+              <Image src={github} alt="arrow" width={30} />
+              <Image src={globe} alt="arrow" width={30} />
             </button>
           </div>
         </div>
@@ -82,8 +83,8 @@ export default function Portfolio() {
               type="button"
               class=" my-4 text-base text-primary flex gap-x-4"
             >
-              <Image src={arrow} alt="arrow" width={20} />
-              Read More
+              <Image src={github} alt="arrow" width={30} />
+              <Image src={globe} alt="arrow" width={30} />
             </button>
           </div>
         </div>
