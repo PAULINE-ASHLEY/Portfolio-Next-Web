@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import book from './book.png';
-import realestate from './realestate.png';
-import arrow from './arrow.png';
+import book from '@public/assets/images/book.png';
+import realestate from '@public/assets/images/realestate.png';
+import arrow from '@public/assets/images/arrow.png';
 import Image from 'next/image';
 
 export default function Portfolio() {

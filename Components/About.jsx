@@ -1,5 +1,5 @@
 import React from 'react';
-import about2 from './about2.gif';
+import about2 from '@public/assets/images/about2.gif';
 import Image from 'next/image';
 
 export default function About() {
