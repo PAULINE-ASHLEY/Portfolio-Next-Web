@@ -1,8 +1,8 @@
 import React from 'react';
-import Experience from '@Components/Experience';
-import About from '@Components/About';
-import Portfolio from '@Components/Portfolio';
-import Skills from '@Components/Skills';
+import Experience from '@components/Experience';
+import About from '@components/About';
+import Portfolio from '@components/Portfolio';
+import Skills from '@components/Skills';
 
 export default function Home() {
   return (

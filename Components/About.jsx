@@ -1,5 +1,5 @@
 import React from 'react';
-import about2 from '@public/assets/images/about2.gif';
+import about from '@public/assets/images/about.png';
 import Image from 'next/image';
 
 export default function About() {
@@ -7,7 +7,7 @@ export default function About() {
     <>
       <div className="flex items-center justify-center">
         <div className="w-[40%] px-4">
-          <Image src={about2} alt="computer" />
+          <Image src={about} alt="computer" />
         </div>
         <div className="w-[60%]">
           <h1 className="text-primary text-2xl font-bold py-1">ABOUT ME</h1>
