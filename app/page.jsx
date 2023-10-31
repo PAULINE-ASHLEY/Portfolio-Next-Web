@@ -1,8 +1,8 @@
 import React from 'react';
-import Experience from '@components/Experience';
-import About from '@components/About';
-import Portfolio from '@components/Portfolio';
-import Skills from '@components/Skills';
+import Experience from './components/Experience';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
 
 export default function Home() {
   return (
@@ -16,9 +16,9 @@ export default function Home() {
       <div className="px-10 py-6">
         <Portfolio />
       </div>
-      {/* <div className="px-20 py-6">
+      <div className="px-20 py-6">
         <Skills />
-      </div> */}
+      </div>
     </>
   );
 }

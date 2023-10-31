@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import book from '@public/assets/images/book.png';
-import realestate from '@public/assets/images/realestate.png';
-import github from '@public/assets/images/github.png';
-import globe from '@public/assets/images/globe.png';
+import book from './images/book.png';
+import realestate from './images/realestate.png';
+import github from './images/github.png';
+import globe from './images/globe.png';
 import Image from 'next/image';
 
 export default function Portfolio() {

@@ -1,7 +1,7 @@
 import React from 'react';
-import square from '@public/assets/images/square.png';
+import square from './images/square.png';
 import Image from 'next/image';
-import home from '@public/assets/images/home.png';
+import home from './images/home.png';
 
 export default function Experience() {
   return (

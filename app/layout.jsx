@@ -1,6 +1,6 @@
-import Footer from '@components/Footer';
-import Navbar from '@components/Navbar';
-import '@styles/globals.css';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import './globals.css';
 import { Kalam } from 'next/font/google';
 
 const kalam = Kalam({ weight: '400', subsets: ['latin'] });
