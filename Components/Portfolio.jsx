@@ -48,7 +48,7 @@ export default function Portfolio() {
           <div className="flex flex-row gap-x-6">
             <button
               type="button"
-              class=" my-4 text-base text-primary flex gap-x-4"
+              className=" my-4 text-base text-primary flex gap-x-4"
             >
               <Image src={github} alt="arrow" width={30} />
               <Image src={globe} alt="arrow" width={30} />
@@ -81,7 +81,7 @@ export default function Portfolio() {
           <div className="flex flex-row gap-x-6">
             <button
               type="button"
-              class=" my-4 text-base text-primary flex gap-x-4"
+              className=" my-4 text-base text-primary flex gap-x-4"
             >
               <Image src={github} alt="arrow" width={30} />
               <Image src={globe} alt="arrow" width={30} />

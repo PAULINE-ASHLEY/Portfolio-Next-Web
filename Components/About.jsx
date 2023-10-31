@@ -7,7 +7,7 @@ export default function About() {
     <>
       <div className="flex items-center justify-center">
         <div className="w-[40%] px-4">
-          <Image src={about3} alt="computer" className='w-[60%]' />
+          <Image src={about3} alt="computer" className="w-[60%]" />
         </div>
         <div className="w-[60%]">
           <h1 className="text-primary text-2xl font-normal py-1">ABOUT ME</h1>
@@ -23,13 +23,13 @@ export default function About() {
           <div className="flex flex-row gap-x-6 pt-2">
             <button
               type="button"
-              class="bg-gradient-to-r from-blue-300 to-blue-600 px-6 py-2 my-6 rounded-xl text-base text-primary"
+              className="bg-gradient-to-r from-blue-300 to-blue-600 px-6 py-2 my-6 rounded-xl text-base text-primary"
             >
               Hire Me
             </button>
             <button
               type="button"
-              class="border-blue-600 border-2 border-solid px-6 py-2 my-6 rounded-xl text-base text-primary"
+              className="border-blue-600 border-2 border-solid px-6 py-2 my-6 rounded-xl text-base text-primary"
             >
               Resume
             </button>

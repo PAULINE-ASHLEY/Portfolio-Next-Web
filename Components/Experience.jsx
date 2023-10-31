@@ -29,7 +29,7 @@ export default function Experience() {
           </p>
           <button
             type="button"
-            class="bg-gradient-to-r from-blue-300 to-blue-600 px-6 py-2 my-6 rounded-xl text-base text-primary"
+            className="bg-gradient-to-r from-blue-300 to-blue-600 px-6 py-2 my-6 rounded-xl text-base text-primary"
           >
             Previous Projects
           </button>
