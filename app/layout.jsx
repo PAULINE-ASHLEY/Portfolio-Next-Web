@@ -1,6 +1,6 @@
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import './globals.css';
+import './styles/globals.css';
 import { Kalam } from 'next/font/google';
 
 const kalam = Kalam({ weight: '400', subsets: ['latin'] });
@@ -12,13 +12,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="bg-[#121212] mx-10">
+    <html lang="en" className="bg-[#121212]">
       <body className={kalam.className}>
         <div>
           <Navbar />
         </div>
         {children}
-        <div>
+        <div className="py-4">
           <Footer />
         </div>
       </body>

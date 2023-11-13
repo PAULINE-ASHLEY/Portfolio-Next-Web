@@ -1,39 +1,41 @@
 import React from 'react';
-import about3 from './images/about3.png';
+import about3 from 'public/assets/images/about3.png';
 import Image from 'next/image';
 
 export default function About() {
   return (
     <>
       <div className="flex items-center justify-center">
-        <div className="w-[40%] px-4">
-          <Image src={about3} alt="computer" className="w-[60%]" />
-        </div>
-        <div className="w-[60%]">
-          <h1 className="text-primary text-2xl font-normal py-1">ABOUT ME</h1>
-          <p className="text-[#A9A9A9] text-base pt-6 font-normal">
-            To obtain full time employment in a position that will allow me to
-            utilize my experience in designing, implementing, testing, debugging
-            and developing software solutions by use of the software development
-            life cycle (SDLC). To obtain full time employment in a position that
-            will allow me to utilize my experience in designing, implementing,
-            testing, debugging and developing software solutions by use of the
-            software development life cycle (SDLC).
+        <div className="w-[70%]">
+          <h1 className="text-primary text-3xl font-normal py-1" id="about">
+            About <b className="text-blue-600 font-normal">Me</b>
+          </h1>
+          <p className="text-primary text-base pt-6 font-normal mr-40">
+            Passionate about{' '}
+            <b className="text-blue-600 font-normal">
+              WordPress and frontend development{' '}
+            </b>
+            , I combine creativity and technical skills to create impactful
+            visual experiences. With a strong background and expertise in web
+            development in designing, implementing, testing, debugging and
+            developing software solutions by use of the software development
+            life cycle (SDLC), I create{' '}
+            <b className="text-blue-600 font-normal">
+              Aesthetic, intuitive & Responsive user interfaces.{' '}
+            </b>{' '}
+            My user-centered approach allows me to design captivating visuals
+            and provide an optimal user experience. Continuosly seeking the
+            latest trends,{' '}
+            <b className="text-blue-600 font-normal">
+              {' '}
+              I enjoy taking on new challenges{' '}
+            </b>{' '}
+            and collaborating with clients to bring their ideas to life through
+            high-quality web experiences.
           </p>
-          <div className="flex flex-row gap-x-6 pt-2">
-            <button
-              type="button"
-              className="bg-gradient-to-r from-blue-300 to-blue-600 px-6 py-2 my-6 rounded-xl text-base text-primary"
-            >
-              Hire Me
-            </button>
-            <button
-              type="button"
-              className="border-blue-600 border-2 border-solid px-6 py-2 my-6 rounded-xl text-base text-primary"
-            >
-              Resume
-            </button>
-          </div>
+        </div>
+        <div className="w-[30%] px-4">
+          <Image src={about3} alt="computer" className="w-[80%]" />
         </div>
       </div>
     </>

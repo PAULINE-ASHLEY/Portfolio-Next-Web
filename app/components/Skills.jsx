@@ -1,82 +1,76 @@
 import React from 'react';
-import css from './images/css.png';
-import html from './images/html.png';
-import javascript from './images/javascript.png';
-import wordpress from './images/wordpress.png';
-import bootstrap from './images/bootstrap.png';
-import tailwind from './images/tailwind.png';
-import database from './images/database.png';
-import drupal from './images/drupal.png';
-import react from './images/react.png';
-import nextjs from './images/nextjs.png';
-import git from './images/git.png';
-import php from './images/php.png';
+import css from 'public/assets/images/css.png';
+import html from 'public/assets/images/html.png';
+import javascript from 'public/assets/images/javascript.png';
+import wordpress from 'public/assets/images/wordpress.png';
+import bootstrap from 'public/assets/images/bootstrap.png';
+import tailwind from 'public/assets/images/tailwind.png';
+import database from 'public/assets/images/database.png';
+import drupal from 'public/assets/images/drupal.png';
+import react from 'public/assets/images/react.png';
+import nextjs from 'public/assets/images/nextjs.png';
+import git from 'public/assets/images/git.png';
+import skills2 from 'public/assets/images/skills2.png';
+import php from 'public/assets/images/php.png';
 import Image from 'next/image';
 
 export default function Portfolio() {
   return (
     <>
-      <h1 className="text-primary text-center text-3xl font-bold">SKILLS</h1>
+      <div className="flex flex-row justify-center">
+        <div className="w-[50%] px-4 flex items-center">
+          <Image src={skills2} alt="computer" className="w-[60%] mx-auto" />
+        </div>
+        <div className="w-[50%] mx-20">
+          <h1 className="text-primary text-3xl font-normal" id="skills">
+            My <b className="text-blue-600 font-normal">Skills</b>
+          </h1>
+          <div className="flex flex-col gap-y-6">
+            <div></div>
+            <div className="flex flex-row gap-x-10">
+              <div className="bg-primary p-2 rounded-full">
+                <Image src={html} alt="html" width={30} />
+              </div>
+              <div className="bg-primary p-2 rounded-full">
+                <Image src={git} alt="html" width={30} />
+              </div>
+              <div className="bg-primary p-2 rounded-full">
+                <Image src={css} alt="css" width={30} />
+              </div>
+              <div className="bg-primary p-2 rounded-full">
+                <Image src={bootstrap} alt="html" width={30} />
+              </div>
+            </div>
 
-      <div className="grid grid-cols-6 mt-20 justify-center items-center">
-        <div>
-          <div className="flex flex-col justify-center items-center gap-y-6">
-            <Image src={html} alt="html" width={50} />
-            <p className="text-white text-3xl text-center">Html</p>
-          </div>
-          <div className="flex flex-col justify-center items-center gap-y-6 pt-10">
-            <Image src={git} alt="html" width={50} />
-            <p className="text-white text-3xl text-center">Git</p>
-          </div>
-        </div>
-        <div>
-          <div className="flex flex-col justify-center items-center gap-y-6">
-            <Image src={css} alt="css" width={50} />
-            <p className="text-white text-3xl text-center">Css</p>
-          </div>
-          <div className="flex flex-col justify-center items-center gap-y-6 pt-10">
-            <Image src={database} alt="html" width={50} />
-            <p className="text-white text-3xl text-center">Mysql</p>
-          </div>
-        </div>
-        <div>
-          <div className="flex flex-col justify-center items-center gap-y-6">
-            <Image src={javascript} alt="javascript" width={50} />
-            <p className="text-white text-3xl text-center">Javascript</p>
-          </div>
-          <div className="flex flex-col justify-center items-center gap-y-6 pt-10">
-            <Image src={drupal} alt="html" width={50} />
-            <p className="text-white text-3xl text-center">Drupal</p>
-          </div>
-        </div>
-        <div>
-          <div className="flex flex-col justify-center items-center gap-y-6">
-            <Image src={wordpress} alt="html" width={50} />
-            <p className="text-white text-3xl text-center">WordPress</p>
-          </div>
-          <div className="flex flex-col justify-center items-center gap-y-6 pt-10">
-            <Image src={react} alt="html" width={50} />
-            <p className="text-white text-3xl text-center">React.js</p>
-          </div>
-        </div>
-        <div>
-          <div className="flex flex-col justify-center items-center gap-y-6">
-            <Image src={bootstrap} alt="html" width={50} />
-            <p className="text-white text-3xl text-center">Bootstrap</p>
-          </div>
-          <div className="flex flex-col justify-center items-center gap-y-6 pt-10">
-            <Image src={nextjs} alt="html" width={50} />
-            <p className="text-white text-3xl text-center">Next.js</p>
-          </div>
-        </div>
-        <div>
-          <div className="flex flex-col justify-center items-center gap-y-6">
-            <Image src={tailwind} alt="html" width={50} />
-            <p className="text-white text-3xl text-center">Tailwind</p>
-          </div>
-          <div className="flex flex-col justify-center items-center gap-y-6 pt-10">
-            <Image src={php} alt="html" width={50} />
-            <p className="text-white text-3xl text-center">Php</p>
+            <div className="flex flex-row gap-x-10">
+              <div className="bg-primary p-2 rounded-full">
+                <Image src={php} alt="css" width={30} />
+              </div>
+              <div className="bg-primary p-2 rounded-full">
+                <Image src={database} alt="html" width={30} />
+              </div>
+              <div className="bg-primary p-2 rounded-full">
+                <Image src={javascript} alt="javascript" width={30} />
+              </div>
+              <div className="bg-primary p-2 rounded-full">
+                <Image src={nextjs} alt="html" width={30} />
+              </div>
+            </div>
+
+            <div className="flex flex-row gap-x-10">
+              <div className="bg-primary p-2 rounded-full">
+                <Image src={drupal} alt="html" width={30} />
+              </div>
+              <div className="bg-primary p-2 rounded-full">
+                <Image src={wordpress} alt="html" width={30} />
+              </div>
+              <div className="bg-primary p-2 rounded-full">
+                <Image src={react} alt="html" width={30} />
+              </div>
+              <div className="bg-primary p-2 rounded-full">
+                <Image src={tailwind} alt="html" width={30} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
