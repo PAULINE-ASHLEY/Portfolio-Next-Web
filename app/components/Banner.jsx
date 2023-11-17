@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import home from 'public/assets/images/home.png';
 
 export default function Banner() {
@@ -11,8 +12,8 @@ export default function Banner() {
             Hello, My name is
           </h1>
           <h1 className="text-primary text-3xl font-normal py-2">
-            Pauline <b className="text-blue-600 font-normal">Adhiambo Ondiek</b>
-            ,
+            Pauline{' '}
+            <b className="text-blue-600 font-normal">Adhiambo Ondiek,</b>
           </h1>
           <div className="flex flex-row gap-x-2 items-center">
             <h1 className="text-primary text-3xl font-normal py-2">
@@ -31,7 +32,7 @@ export default function Banner() {
               type="button"
               className="border-blue-600 border-2 border-solid px-10 py-2 my-6 rounded-2xl text-base text-blue-600"
             >
-              Let's talk
+              <Link href="/#contact">Let's talk</Link>
             </button>
           </div>
         </div>

@@ -8,8 +8,8 @@ import pinterest from 'public/assets/images/pinterest.png';
 export default function Footer() {
   return (
     <>
-      <div className="grid grid-cols-3">
-        <div className="mx-10 text-white text-sm">
+      <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
+        <div className="text-white text-sm mx-4">
           <p>
             To view more of my projects and code, Kindly visit my{' '}
             <b className="text-blue-600 font-normal">Github Account. </b>
@@ -22,7 +22,7 @@ export default function Footer() {
           <Image src={pinterest} alt="html" width={20} />
           <Image src={twitter} alt="html" width={20} />
         </div>
-        <div className="mx-10">
+        <div className="mx-4">
           <p className="text-primary font-medium text-sm">
             © 2023 All rights reserved. By{' '}
             <b className="text-blue-600 font-normal">

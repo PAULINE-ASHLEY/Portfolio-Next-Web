@@ -19,15 +19,12 @@ import WorkTemp from './WorkTemp';
 export default function Portfolio() {
   return (
     <>
-      <h1
-        className="text-primary text-center text-3xl font-normal"
-        id="projects"
-      >
+      <h1 className="text-primary text-center text-3xl font-normal">
         My <b className="text-blue-600 font-normal">Work</b>
       </h1>
-      <div id="projects" className="w-full">
+      <div className="w-full">
         <div className="max-w-[1240px] mx-auto px-2 py-4">
-          <div className="grid grid-cols-3 gap-x-2">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-x-2">
             <WorkTemp
               title="Real Paradise Website"
               image={realestate}
@@ -146,14 +143,22 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center">
+        <div className="flex flex-row justify-center items-center gap-x-6">
           <a
-            className="bg-blue-600 px-6 py-2 my-6 rounded-2xl text-base text-primary"
+            className="bg-blue-600 px-8 py-2 my-6 rounded-2xl text-base text-primary"
             href="http://github.com/PAULINE-ASHLEY"
             target="_blank"
             rel="noreferrer"
           >
             All My Works
+          </a>
+          <a
+            className="border-blue-600 border-2 border-solid px-6 py-2 my-6 rounded-2xl text-base text-blue-600"
+            href="https://pauline-ashley.github.io/PAULINE_ONDIEK/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Previous Portfolio
           </a>
         </div>
       </div>

@@ -13,7 +13,7 @@ export default function Contact() {
       >
         Contact <b className="text-blue-600 font-normal">Me</b>
       </h1>
-      <div className="grid grid-cols-3 gap-x-6 justify-center items-center mt-2">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-x-6 justify-center items-center mt-2">
         <div className="flex flex-col gap-y-2 text-white text-center">
           <Image src={email} alt="html" width={25} className="mx-auto" />
           <p>ashleyondiek9@gmail.com</p>
@@ -24,7 +24,7 @@ export default function Contact() {
         </div>
         <div className="flex flex-col gap-y-2 text-white text-center">
           <Image src={phone} alt="html" width={25} className="mx-auto" />
-          <p>+254708-400-409</p>
+          <p>+(254)-708-400-409</p>
         </div>
       </div>
     </>

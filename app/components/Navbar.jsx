@@ -17,7 +17,7 @@ export default function Navbar() {
             type="button"
             className="bg-blue-600 px-6 py-2 my-6 rounded-xl text-base text-primary"
           >
-            Contact Me
+            <Link href="/#contact">Contact Me</Link>
           </button>
           <ul className="md:flex hidden items-center gap-4 text-lg">
             <li>
@@ -41,7 +41,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href="/#projects" className="py-7 px-3 inline-block">
+              <Link href="/#work" className="py-7 px-3 inline-block">
                 My Work
               </Link>
             </li>
