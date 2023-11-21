@@ -11,28 +11,40 @@ export default function Home() {
   return (
     <>
       <div>
-        <div className="px-20 py-6">
+        <div className="sm:px-4 md:px-10 lg:px-10 xl:px-10 2xl:px-10 py-6">
           <Banner />
         </div>
         <div
-          className="sm:px-4 md:px-4 lg:px-20 xl:px-20 2xl:px-20 py-10 bg-[#242124]"
+          className="sm:px-4 md:px-10 lg:px-10 xl:px-10 2xl:px-10 py-10 bg-[#242124]"
           id="about"
         >
           <About />
         </div>
-        <div className="px-20 py-10" id="services">
+        <div
+          className="sm:px-4 md:px-20 lg:px-20 xl:px-20 2xl:px-20 py-10"
+          id="services"
+        >
           <Services />
         </div>
-        <div className="px-20 py-10 bg-[#242124]" id="skills">
+        <div
+          className="sm:px-0 md:px-20 lg:px-20 xl:px-20 2xl:px-20 py-10 bg-[#242124]"
+          id="skills"
+        >
           <Skills />
         </div>
-        <div className="px-20 py-10" id="work">
+        <div
+          className="sm:px-20 md:px-10 lg:px-20 xl:px-20 2xl:px-20 py-10"
+          id="work"
+        >
           <Portfolio />
         </div>
         {/* <div className="px-20 py-10 bg-[#242124]">
           <Experience />
         </div> */}
-        <div className="px-20 py-6 bg-[#242124]" id="contact">
+        <div
+          className="sm:px-4 md:px-10 lg:px-20 xl:px-20 2xl:px-20 py-6 bg-[#242124]"
+          id="contact"
+        >
           <Contact />
         </div>
       </div>

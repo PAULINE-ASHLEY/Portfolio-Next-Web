@@ -6,8 +6,8 @@ import home from 'public/assets/images/home.png';
 export default function Banner() {
   return (
     <>
-      <div className="flex items-center justify-center">
-        <div className="w-[70%]">
+      <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 items-center justify-center mx-10 gap-y-6">
+        <div>
           <h1 className="text-primary text-2xl font-normal">
             Hello, My name is
           </h1>
@@ -26,7 +26,7 @@ export default function Banner() {
               type="button"
               className="bg-blue-600 px-6 py-2 my-6 rounded-2xl text-base text-primary"
             >
-              Download CV
+              <Link href="/#about">About Me</Link>
             </button>
             <button
               type="button"
@@ -36,10 +36,18 @@ export default function Banner() {
             </button>
           </div>
         </div>
-        <div className="flex items-center w-[30%]">
-          <Image src={home} alt="about w-[40%]" />
+        <div>
+          <Image src={home} alt="about" className="w-[50%] mx-auto" />
         </div>
       </div>
     </>
   );
+}
+
+{
+  /* <a href="PAULINEONDIEKCV.pdf" download>
+<p style="text-align:center"><button class="w3-button w3-black w3-round-xlarge w3-hover-grey">
+ <i class='fas fa-download' style='font-size:14px'> &nbsp;DOWNLOAD CV</i>
+</button></p>
+</a> */
 }

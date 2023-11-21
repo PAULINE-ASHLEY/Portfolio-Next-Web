@@ -15,6 +15,7 @@ import inchcape from 'public/assets/images/inchcape.png';
 import prudential from 'public/assets/images/prudential.png';
 import icea from 'public/assets/images/icea.png';
 import WorkTemp from './WorkTemp';
+import Link from 'next/link';
 
 export default function Portfolio() {
   return (
@@ -144,22 +145,22 @@ export default function Portfolio() {
         </div>
 
         <div className="flex flex-row justify-center items-center gap-x-6">
-          <a
+          <Link
             className="bg-blue-600 px-8 py-2 my-6 rounded-2xl text-base text-primary"
             href="http://github.com/PAULINE-ASHLEY"
             target="_blank"
             rel="noreferrer"
           >
             All My Works
-          </a>
-          <a
+          </Link>
+          <Link
             className="border-blue-600 border-2 border-solid px-6 py-2 my-6 rounded-2xl text-base text-blue-600"
             href="https://pauline-ashley.github.io/PAULINE_ONDIEK/"
             target="_blank"
             rel="noreferrer"
           >
             Previous Portfolio
-          </a>
+          </Link>
         </div>
       </div>
     </>

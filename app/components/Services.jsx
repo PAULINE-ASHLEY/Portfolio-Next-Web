@@ -14,7 +14,7 @@ export default function Services() {
       </h1>
 
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 mt-6 justify-center items-center gap-x-8 md:gap-y-8">
-        <div className="gap-y-10 bg-[#242124] rounded text-center py-6 px-4 2xl:mx-20">
+        <div className=" bg-[#242124] rounded text-center py-6 px-4 2xl:mx-20 my-4">
           <Image src={design} alt="html" width={40} className="mx-auto" />
           <h1 className="text-primary text-lg">
             Search Engine <br /> Optimization (SEO)
@@ -40,7 +40,7 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <div className="gap-y-10 bg-[#242124] rounded text-center py-6 px-4 2xl:mx-20">
+        <div className="bg-[#242124] rounded text-center py-6 px-4 2xl:mx-20 my-4">
           <Image src={code} alt="html" width={40} className="mx-auto" />
           <h1 className="text-primary text-lg">
             Interactive Frontend <br /> Development
@@ -68,7 +68,7 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <div className="gap-y-10 bg-[#242124] rounded text-center py-6 px-4 2xl:mx-20">
+        <div className="bg-[#242124] rounded text-center py-6 px-4 2xl:mx-20 my-4">
           <Image src={website} alt="html" width={40} className="mx-auto" />
           <h1 className="text-primary text-lg">
             Content Management <br /> Systems
@@ -92,7 +92,7 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <div className="gap-y-10 bg-[#242124] rounded text-center py-6 px-4 2xl:mx-20">
+        <div className="bg-[#242124] rounded text-center py-6 px-4 2xl:mx-20 my-4">
           <Image src={maintenance} alt="html" width={40} className="mx-auto" />
           <h1 className="text-primary text-lg">
             Maintenance and Technical Support
