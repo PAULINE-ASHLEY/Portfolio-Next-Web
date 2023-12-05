@@ -6,17 +6,17 @@ import home from 'public/assets/images/home.png';
 export default function Banner() {
   return (
     <>
-      <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 items-center justify-center mx-10 gap-y-6">
+      <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 items-center justify-center mx-10 gap-y-6 md:pt-10">
         <div>
-          <h1 className="text-primary text-2xl font-normal">
+          <h1 className="text-primary text-2xl md:text-2xl lg:text-2xl xl:text-2xl 2xl:text-2xl font-normal">
             Hello, My name is
           </h1>
-          <h1 className="text-primary text-3xl font-normal py-2">
+          <h1 className="text-primary text-2xl md:text-2xl lg:text-2xl xl:text-2xl 2xl:text-2xl font-normal py-2">
             Pauline{' '}
             <b className="text-blue-600 font-normal">Adhiambo Ondiek,</b>
           </h1>
           <div className="flex flex-row gap-x-2 items-center">
-            <h1 className="text-primary text-3xl font-normal py-2">
+            <h1 className="text-primary text-2xl md:text-2xl lg:text-2xl xl:text-2xl 2xl:text-2xl font-normal py-2">
               I am a WordPress <b className="text-blue-600 font-normal">&</b>{' '}
               Frontend developer.
             </h1>
