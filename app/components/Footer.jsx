@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
         <div className="mx-4 text-center md:py-4 py-2">
           <p className="text-primary font-medium text-sm">
-            © 2023 All rights reserved. By{' '}
+            © 2024 All rights reserved. By{' '}
             <b className="text-blue-600 font-normal">
               <Link href="http://github.com/PAULINE-ASHLEY" target="_blank">
                 Pauline Adhiambo Ondiek.

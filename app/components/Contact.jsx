@@ -16,7 +16,7 @@ export default function Contact() {
       </h1>
       <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-x-6 justify-center items-center mt-2">
         <div className="flex flex-col gap-y-2 text-white text-center">
-          <Link href="mailto:ashleyondiek@gmail.com">
+          <Link href="mailto:ashleyondiek9@gmail.com">
             <Image src={email} alt="html" width={25} className="mx-auto py-2" />
             <p>ashleyondiek9@gmail.com</p>
           </Link>

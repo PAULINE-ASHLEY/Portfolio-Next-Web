@@ -13,6 +13,7 @@ import tgc from 'public/assets/images/tgc.png';
 import decor from 'public/assets/images/decor.png';
 import inchcape from 'public/assets/images/inchcape.png';
 import prudential from 'public/assets/images/prudential.png';
+import investors from 'public/assets/images/investors.png';
 import icea from 'public/assets/images/icea.png';
 import WorkTemp from './WorkTemp';
 import Link from 'next/link';
@@ -26,6 +27,13 @@ export default function Portfolio() {
       <div className="w-full">
         <div className="max-w-[1240px] mx-auto px-2 py-4">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-x-2">
+            <WorkTemp
+              title="PitchInvestors Website"
+              image={investors}
+              webUrl="https://pitch-investors.com/"
+              gitUrl="#"
+              languages="HTML, CSS, Javascript, Laravel(PHP), WebSockets, SQL"
+            />
             <WorkTemp
               title="Real Paradise Website"
               image={realestate}
@@ -79,14 +87,6 @@ export default function Portfolio() {
             />
 
             <WorkTemp
-              title="The LawDown Africa Website"
-              image={down}
-              webUrl="https://thelawdownafrica.com/"
-              gitUrl="https://thelawdownafrica.com/"
-              languages="WordPress"
-            />
-
-            <WorkTemp
               title="Telkom Kenya Website"
               image={Telkom}
               webUrl="https://telkom.co.ke/"
@@ -99,14 +99,6 @@ export default function Portfolio() {
               image={upp}
               webUrl="https://urbanpolicyplatform.org/"
               gitUrl="https://urbanpolicyplatform.org/"
-              languages="WordPress"
-            />
-
-            <WorkTemp
-              title="The Gurl's Club Events Website"
-              image={tgc}
-              webUrl="https://events.tgc.co.ke/"
-              gitUrl="https://events.tgc.co.ke/"
               languages="WordPress"
             />
 
@@ -139,6 +131,22 @@ export default function Portfolio() {
               image={prudential}
               webUrl="https://www.prudential.ug/"
               gitUrl="https://www.prudential.ug/"
+              languages="WordPress"
+            />
+
+            <WorkTemp
+              title="The LawDown Africa Website"
+              image={down}
+              webUrl="https://thelawdownafrica.com/"
+              gitUrl="https://thelawdownafrica.com/"
+              languages="WordPress"
+            />
+
+            <WorkTemp
+              title="The Gurl's Club Events Website"
+              image={tgc}
+              webUrl="https://events.tgc.co.ke/"
+              gitUrl="https://events.tgc.co.ke/"
               languages="WordPress"
             />
           </div>
