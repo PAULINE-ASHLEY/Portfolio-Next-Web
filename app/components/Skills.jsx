@@ -10,7 +10,7 @@ import drupal from 'public/assets/images/drupal.png';
 import react from 'public/assets/images/react.png';
 import nextjs from 'public/assets/images/nextjs.png';
 import git from 'public/assets/images/git.png';
-import skills1 from 'public/assets/images/skills1.png';
+import skills1 from 'public/assets/images/code.gif';
 import php from 'public/assets/images/php.png';
 import Image from 'next/image';
 
@@ -22,7 +22,7 @@ export default function Portfolio() {
           <Image
             src={skills1}
             alt="computer"
-            className="w-[50%] mx-auto md:my-6"
+            className="w-[80%] mx-auto md:my-6"
           />
         </div>
         <div className="mx-6">

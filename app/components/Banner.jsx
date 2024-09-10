@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import home from 'public/assets/images/home.png';
+import home from 'public/assets/images/Hello.gif';
 
 export default function Banner() {
   return (
