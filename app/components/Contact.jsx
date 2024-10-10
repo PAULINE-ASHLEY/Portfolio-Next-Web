@@ -18,7 +18,7 @@ export default function Contact() {
         <div className="flex flex-col gap-y-2 text-white text-center">
           <Link href="mailto:ashleyondiek9@gmail.com">
             <Image src={email} alt="html" width={25} className="mx-auto py-2" />
-            <p>ashleyondiek@gmail.com</p>
+            <p>ashleyondiek9@gmail.com</p>
           </Link>
         </div>
         <div className="flex flex-col gap-y-2 text-white text-center">
