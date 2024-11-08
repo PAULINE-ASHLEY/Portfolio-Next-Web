@@ -15,6 +15,7 @@ import inchcape from 'public/assets/images/inchcape.png';
 import prudential from 'public/assets/images/prudential.png';
 import investors from 'public/assets/images/investors.png';
 import icea from 'public/assets/images/icea.png';
+import swop from 'public/assets/images/swop.png';
 import WorkTemp from './WorkTemp';
 import Link from 'next/link';
 
@@ -27,6 +28,13 @@ export default function Portfolio() {
       <div className="w-full">
         <div className="max-w-[1240px] mx-auto px-2 py-4">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-x-2">
+            <WorkTemp
+              title="Support for Widows and Orphans Programme"
+              image={swop}
+              webUrl="https://supportforwidowsandorphansprogramme.org/"
+              gitUrl="#"
+              languages="WordPress"
+            />
             <WorkTemp
               title="PitchInvestors Website"
               image={investors}
@@ -52,7 +60,7 @@ export default function Portfolio() {
               title="Black Woman Can Dashboard"
               image={dashboard}
               webUrl="https://admin-blackwomancan.vercel.app/"
-              gitUrl="https://admin-blackwomancan.vercel.app/"
+              gitUrl="#"
               languages="React.js, JSON and Tailwind CSS"
             />
             <WorkTemp
@@ -65,8 +73,8 @@ export default function Portfolio() {
             <WorkTemp
               title="Black Woman Can Website"
               image={black}
-              webUrl="https://black-woman-can.vercel.app/"
-              gitUrl="https://black-woman-can.vercel.app/"
+              webUrl="https://blackwomancan.com/"
+              gitUrl="#"
               languages="React.js, Tailwind CSS and APIs"
             />
 
@@ -82,7 +90,7 @@ export default function Portfolio() {
               title="Pacis Insurance Website"
               image={pacis}
               webUrl="https://www.pacisinsurance.com/"
-              gitUrl="https://www.pacisinsurance.com/"
+              gitUrl="#"
               languages="WordPress"
             />
 
@@ -90,7 +98,7 @@ export default function Portfolio() {
               title="Telkom Kenya Website"
               image={Telkom}
               webUrl="https://telkom.co.ke/"
-              gitUrl="https://telkom.co.ke/"
+              gitUrl="#"
               languages="WordPress"
             />
 
@@ -98,7 +106,7 @@ export default function Portfolio() {
               title="Urban Policy Platform Website"
               image={upp}
               webUrl="https://urbanpolicyplatform.org/"
-              gitUrl="https://urbanpolicyplatform.org/"
+              gitUrl="#"
               languages="WordPress"
             />
 
@@ -106,7 +114,7 @@ export default function Portfolio() {
               title="Siginga Decor Ventures E-Commerce Website"
               image={decor}
               webUrl="http://sigingadecorventures.co.ke/"
-              gitUrl="http://sigingadecorventures.co.ke/"
+              gitUrl="#"
               languages="WordPress"
             />
 
@@ -114,7 +122,7 @@ export default function Portfolio() {
               title="Inchcape Kenya Website"
               image={inchcape}
               webUrl="https://inchcape.co.ke/"
-              gitUrl="https://inchcape.co.ke/"
+              gitUrl="#"
               languages="WordPress"
             />
 
@@ -122,7 +130,7 @@ export default function Portfolio() {
               title="ICEA Kenya, Uganda and Tanzania Website"
               image={icea}
               webUrl="https://icealion.co.ke/"
-              gitUrl="https://icealion.co.ke/"
+              gitUrl="#"
               languages="WordPress"
             />
 
@@ -130,7 +138,7 @@ export default function Portfolio() {
               title="Prudential Uganda Website"
               image={prudential}
               webUrl="https://www.prudential.ug/"
-              gitUrl="https://www.prudential.ug/"
+              gitUrl="#"
               languages="WordPress"
             />
 
@@ -138,15 +146,15 @@ export default function Portfolio() {
               title="The LawDown Africa Website"
               image={down}
               webUrl="https://thelawdownafrica.com/"
-              gitUrl="https://thelawdownafrica.com/"
+              gitUrl="#"
               languages="WordPress"
             />
 
             <WorkTemp
-              title="The Gurl's Club Events Website"
+              title="The Gurl's Club Website"
               image={tgc}
-              webUrl="https://events.tgc.co.ke/"
-              gitUrl="https://events.tgc.co.ke/"
+              webUrl="https://tgc.co.ke/"
+              gitUrl="#"
               languages="WordPress"
             />
           </div>
