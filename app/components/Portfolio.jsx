@@ -113,7 +113,7 @@ export default function Portfolio() {
             <WorkTemp
               title="Siginga Decor Ventures E-Commerce Website"
               image={decor}
-              webUrl="http://sigingadecorventures.co.ke/"
+              webUrl="http://sigingadecorventure.co.ke/"
               gitUrl="#"
               languages="WordPress"
             />
