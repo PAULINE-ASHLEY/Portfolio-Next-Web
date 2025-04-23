@@ -36,63 +36,6 @@ export default function Portfolio() {
               gitUrl="#"
               languages="WordPress"
             />
-            <WorkTemp
-              title="Support for Widows and Orphans Programme"
-              image={swop}
-              webUrl="https://supportforwidowsandorphansprogramme.org/"
-              gitUrl="#"
-              languages="WordPress"
-            />
-            <WorkTemp
-              title="PitchInvestors Website"
-              image={investors}
-              webUrl="https://pitch-investors.com/"
-              gitUrl="#"
-              languages="HTML, CSS, Javascript, Laravel(PHP), WebSockets, SQL"
-            />
-            <WorkTemp
-              title="Real Paradise Website"
-              image={realestate}
-              webUrl="https://real-estate-react-web.vercel.app/"
-              gitUrl="https://github.com/PAULINE-ASHLEY/Real-Estate-React-Web"
-              languages="React.js, JSON and Tailwind CSS"
-            />
-            <WorkTemp
-              title="MangenyBuch E-Commerce Website"
-              image={book}
-              webUrl="https://mangeny-buch-react-web.vercel.app/"
-              gitUrl="https://github.com/PAULINE-ASHLEY/MangenyBuch-React-Web"
-              languages="React.js, Redux Toolkit, JSON and Tailwind CSS"
-            />
-            <WorkTemp
-              title="Black Woman Can Dashboard"
-              image={dashboard}
-              webUrl="https://admin-blackwomancan.vercel.app/"
-              gitUrl="#"
-              languages="React.js, JSON and Tailwind CSS"
-            />
-            <WorkTemp
-              title="Ashley's Kitchen Website"
-              image={food}
-              webUrl="https://restaurant-react-web.vercel.app/"
-              gitUrl="https://github.com/PAULINE-ASHLEY/Restaurant-React-Web"
-              languages="React.js, Redux Toolkit, JSON and Tailwind CSS"
-            />
-            <WorkTemp
-              title="Black Woman Can Website"
-              image={black}
-              webUrl="https://blackwomancan.com/"
-              gitUrl="#"
-              languages="React.js, Tailwind CSS and APIs"
-            />
-
-            <WorkTemp
-              title="Ash Coin Website"
-              image={coin}
-              webUrl="https://ash-coin-react-web.vercel.app/"
-              gitUrl="https://github.com/PAULINE-ASHLEY/Ash-Coin-React-Web"
-              languages="React.js, Tailwind CSS and APIs"
-            />
 
             <WorkTemp
               title="Pacis Insurance Website"
@@ -119,9 +62,33 @@ export default function Portfolio() {
             />
 
             <WorkTemp
+              title="ICEA Kenya, Uganda and Tanzania Website"
+              image={icea}
+              webUrl="https://icealion.co.ke/"
+              gitUrl="#"
+              languages="WordPress"
+            />
+
+            <WorkTemp
+              title="The LawDown Africa Website"
+              image={down}
+              webUrl="https://thelawdownafrica.com/"
+              gitUrl="#"
+              languages="WordPress"
+            />
+
+            <WorkTemp
               title="Siginga Decor Ventures E-Commerce Website"
               image={decor}
               webUrl="https://sigingadecorventure.co.ke/"
+              gitUrl="#"
+              languages="WordPress"
+            />
+
+            <WorkTemp
+              title="Support for Widows and Orphans Programme"
+              image={swop}
+              webUrl="https://supportforwidowsandorphansprogramme.org/"
               gitUrl="#"
               languages="WordPress"
             />
@@ -135,25 +102,63 @@ export default function Portfolio() {
             />
 
             <WorkTemp
-              title="ICEA Kenya, Uganda and Tanzania Website"
-              image={icea}
-              webUrl="https://icealion.co.ke/"
+              title="PitchInvestors Website"
+              image={investors}
+              webUrl="https://pitch-investors.com/"
               gitUrl="#"
-              languages="WordPress"
+              languages="HTML, CSS, Javascript, Laravel(PHP), WebSockets, SQL"
+            />
+
+            <WorkTemp
+              title="MangenyBuch E-Commerce Website"
+              image={book}
+              webUrl="https://mangeny-buch-react-web.vercel.app/"
+              gitUrl="https://github.com/PAULINE-ASHLEY/MangenyBuch-React-Web"
+              languages="React.js, Redux Toolkit, JSON and Tailwind CSS"
+            />
+
+            <WorkTemp
+              title="Real Paradise Website"
+              image={realestate}
+              webUrl="https://real-estate-react-web.vercel.app/"
+              gitUrl="https://github.com/PAULINE-ASHLEY/Real-Estate-React-Web"
+              languages="React.js, JSON and Tailwind CSS"
+            />
+
+            <WorkTemp
+              title="Black Woman Can Dashboard"
+              image={dashboard}
+              webUrl="https://admin-blackwomancan.vercel.app/"
+              gitUrl="#"
+              languages="React.js, JSON and Tailwind CSS"
+            />
+            <WorkTemp
+              title="Ashley's Kitchen Website"
+              image={food}
+              webUrl="https://restaurant-react-web.vercel.app/"
+              gitUrl="https://github.com/PAULINE-ASHLEY/Restaurant-React-Web"
+              languages="React.js, Redux Toolkit, JSON and Tailwind CSS"
+            />
+            <WorkTemp
+              title="Black Woman Can Website"
+              image={black}
+              webUrl="https://black-woman-can.vercel.app/"
+              gitUrl="#"
+              languages="React.js, Tailwind CSS and APIs"
+            />
+
+            <WorkTemp
+              title="Ash Coin Website"
+              image={coin}
+              webUrl="https://ash-coin-react-web.vercel.app/"
+              gitUrl="https://github.com/PAULINE-ASHLEY/Ash-Coin-React-Web"
+              languages="React.js, Tailwind CSS and APIs"
             />
 
             <WorkTemp
               title="Prudential Uganda Website"
               image={prudential}
               webUrl="https://www.prudential.ug/"
-              gitUrl="#"
-              languages="WordPress"
-            />
-
-            <WorkTemp
-              title="The LawDown Africa Website"
-              image={down}
-              webUrl="https://thelawdownafrica.com/"
               gitUrl="#"
               languages="WordPress"
             />
