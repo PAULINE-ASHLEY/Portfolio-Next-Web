@@ -16,6 +16,7 @@ import prudential from 'public/assets/images/prudential.png';
 import investors from 'public/assets/images/investors.png';
 import icea from 'public/assets/images/icea.png';
 import swop from 'public/assets/images/swop.png';
+import umi from 'public/assets/images/umi.png';
 import WorkTemp from './WorkTemp';
 import Link from 'next/link';
 
@@ -28,6 +29,13 @@ export default function Portfolio() {
       <div className="w-full">
         <div className="max-w-[1240px] mx-auto px-2 py-4">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-x-2">
+            <WorkTemp
+              title="UMi Digital Kenya"
+              image={umi}
+              webUrl="https://umi.co.ke/"
+              gitUrl="#"
+              languages="WordPress"
+            />
             <WorkTemp
               title="Support for Widows and Orphans Programme"
               image={swop}
