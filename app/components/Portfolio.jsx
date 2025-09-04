@@ -4,19 +4,16 @@ import dashboard from 'public/assets/images/dashboard.png';
 import food from 'public/assets/images/food.png';
 import realestate from 'public/assets/images/realestate.png';
 import black from 'public/assets/images/black.png';
-import coin from 'public/assets/images/coin.png';
 import pacis from 'public/assets/images/pacis.png';
 import down from 'public/assets/images/down.png';
 import Telkom from 'public/assets/images/Telkom.png';
 import upp from 'public/assets/images/upp.png';
-import tgc from 'public/assets/images/tgc.png';
-import decor from 'public/assets/images/decor.png';
 import inchcape from 'public/assets/images/inchcape.png';
 import prudential from 'public/assets/images/prudential.png';
-import investors from 'public/assets/images/investors.png';
 import icea from 'public/assets/images/icea.png';
 import swop from 'public/assets/images/swop.png';
 import umi from 'public/assets/images/umi.png';
+import orthofit from 'public/assets/images/orthofit.png';
 import WorkTemp from './WorkTemp';
 import Link from 'next/link';
 
@@ -30,6 +27,14 @@ export default function Portfolio() {
         <div className="max-w-[1240px] mx-auto px-2 py-4">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-x-2">
             <WorkTemp
+              title="OrthoFit Enterprises"
+              image={orthofit}
+              webUrl="https://orthofit.co.ke/"
+              gitUrl="#"
+              languages="WordPress"
+            />
+
+             <WorkTemp
               title="UMi Digital Kenya"
               image={umi}
               webUrl="https://umi.co.ke/"
@@ -78,14 +83,6 @@ export default function Portfolio() {
             />
 
             <WorkTemp
-              title="Siginga Decor Ventures E-Commerce Website"
-              image={decor}
-              webUrl="https://sigingadecorventure.co.ke/"
-              gitUrl="#"
-              languages="WordPress"
-            />
-
-            <WorkTemp
               title="Support for Widows and Orphans Programme"
               image={swop}
               webUrl="https://supportforwidowsandorphansprogramme.org/"
@@ -99,14 +96,6 @@ export default function Portfolio() {
               webUrl="https://inchcape.co.ke/"
               gitUrl="#"
               languages="WordPress"
-            />
-
-            <WorkTemp
-              title="PitchInvestors Website"
-              image={investors}
-              webUrl="https://pitch-investors.com/"
-              gitUrl="#"
-              languages="HTML, CSS, Javascript, Laravel(PHP), WebSockets, SQL"
             />
 
             <WorkTemp
@@ -132,6 +121,7 @@ export default function Portfolio() {
               gitUrl="#"
               languages="React.js, JSON and Tailwind CSS"
             />
+
             <WorkTemp
               title="Ashley's Kitchen Website"
               image={food}
@@ -139,19 +129,12 @@ export default function Portfolio() {
               gitUrl="https://github.com/PAULINE-ASHLEY/Restaurant-React-Web"
               languages="React.js, Redux Toolkit, JSON and Tailwind CSS"
             />
+
             <WorkTemp
               title="Black Woman Can Website"
               image={black}
               webUrl="https://black-woman-can.vercel.app/"
               gitUrl="#"
-              languages="React.js, Tailwind CSS and APIs"
-            />
-
-            <WorkTemp
-              title="Ash Coin Website"
-              image={coin}
-              webUrl="https://ash-coin-react-web.vercel.app/"
-              gitUrl="https://github.com/PAULINE-ASHLEY/Ash-Coin-React-Web"
               languages="React.js, Tailwind CSS and APIs"
             />
 
@@ -163,13 +146,6 @@ export default function Portfolio() {
               languages="WordPress"
             />
 
-            <WorkTemp
-              title="The Gurl's Club Website"
-              image={tgc}
-              webUrl="https://tgc.co.ke/"
-              gitUrl="#"
-              languages="WordPress"
-            />
           </div>
         </div>
 

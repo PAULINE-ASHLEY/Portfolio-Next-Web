@@ -63,7 +63,7 @@ export default function Services() {
             <div className="flex flex-row items-center gap-x-2">
               <Image src={square} alt="html" width={10} />
               <p className="text-primary text-sm">
-                React.js, Next.js & Tailwind
+                React, Next JS & Tailwind
               </p>
             </div>
           </div>
