@@ -27,6 +27,14 @@ export default function Portfolio() {
         <div className="max-w-[1240px] mx-auto px-2 py-4">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-x-2">
             <WorkTemp
+              title="Beha Home Care"
+              image={beha}
+              webUrl="https://behahomecare.com/"
+              gitUrl="#"
+              languages="WordPress"
+            />
+
+            <WorkTemp
               title="OrthoFit Enterprises"
               image={orthofit}
               webUrl="https://orthofit.co.ke/"
@@ -34,7 +42,7 @@ export default function Portfolio() {
               languages="WordPress"
             />
 
-             <WorkTemp
+            <WorkTemp
               title="UMi Digital Kenya"
               image={umi}
               webUrl="https://umi.co.ke/"
@@ -75,6 +83,22 @@ export default function Portfolio() {
             />
 
             <WorkTemp
+              title="Inchcape Kenya Website"
+              image={inchcape}
+              webUrl="https://inchcape.co.ke/"
+              gitUrl="#"
+              languages="WordPress"
+            />
+
+            <WorkTemp
+              title="Prudential Uganda Website"
+              image={prudential}
+              webUrl="https://www.prudential.ug/"
+              gitUrl="#"
+              languages="WordPress"
+            />
+
+            <WorkTemp
               title="The LawDown Africa Website"
               image={down}
               webUrl="https://thelawdownafrica.com/"
@@ -86,14 +110,6 @@ export default function Portfolio() {
               title="Support for Widows and Orphans Programme"
               image={swop}
               webUrl="https://supportforwidowsandorphansprogramme.org/"
-              gitUrl="#"
-              languages="WordPress"
-            />
-
-            <WorkTemp
-              title="Inchcape Kenya Website"
-              image={inchcape}
-              webUrl="https://inchcape.co.ke/"
               gitUrl="#"
               languages="WordPress"
             />
@@ -137,15 +153,6 @@ export default function Portfolio() {
               gitUrl="#"
               languages="React.js, Tailwind CSS and APIs"
             />
-
-            <WorkTemp
-              title="Prudential Uganda Website"
-              image={prudential}
-              webUrl="https://www.prudential.ug/"
-              gitUrl="#"
-              languages="WordPress"
-            />
-
           </div>
         </div>
 
