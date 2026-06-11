@@ -8,6 +8,7 @@ import pacis from 'public/assets/images/pacis.png';
 import down from 'public/assets/images/down.png';
 import Telkom from 'public/assets/images/Telkom.png';
 import upp from 'public/assets/images/upp.png';
+import beha from 'public/assets/images/beha.png';
 import inchcape from 'public/assets/images/inchcape.png';
 import prudential from 'public/assets/images/prudential.png';
 import icea from 'public/assets/images/icea.png';
