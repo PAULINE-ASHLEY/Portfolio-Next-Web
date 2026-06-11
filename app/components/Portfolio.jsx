@@ -1,8 +1,8 @@
 import React from 'react';
-import book from 'public/assets/images/book.png';
+// import book from 'public/assets/images/book.png';
 import dashboard from 'public/assets/images/dashboard.png';
 import food from 'public/assets/images/food.png';
-import realestate from 'public/assets/images/realestate.png';
+// import realestate from 'public/assets/images/realestate.png';
 import black from 'public/assets/images/black.png';
 import pacis from 'public/assets/images/pacis.png';
 // import down from 'public/assets/images/down.png';
@@ -115,21 +115,21 @@ export default function Portfolio() {
               languages="WordPress"
             /> */}
 
-            <WorkTemp
+            {/* <WorkTemp
               title="MangenyBuch E-Commerce Website"
               image={book}
               webUrl="https://mangeny-buch-react-web.vercel.app/"
               gitUrl="https://github.com/PAULINE-ASHLEY/MangenyBuch-React-Web"
               languages="React.js, Redux Toolkit, JSON and Tailwind CSS"
-            />
-
+            /> */}
+            {/* 
             <WorkTemp
               title="Real Paradise Website"
               image={realestate}
               webUrl="https://real-estate-react-web.vercel.app/"
               gitUrl="https://github.com/PAULINE-ASHLEY/Real-Estate-React-Web"
               languages="React.js, JSON and Tailwind CSS"
-            />
+            /> */}
 
             <WorkTemp
               title="Black Woman Can Dashboard"
