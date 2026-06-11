@@ -5,14 +5,14 @@ import food from 'public/assets/images/food.png';
 import realestate from 'public/assets/images/realestate.png';
 import black from 'public/assets/images/black.png';
 import pacis from 'public/assets/images/pacis.png';
-import down from 'public/assets/images/down.png';
-import Telkom from 'public/assets/images/Telkom.png';
+// import down from 'public/assets/images/down.png';
+// import Telkom from 'public/assets/images/Telkom.png';
 import upp from 'public/assets/images/upp.png';
 import beha from 'public/assets/images/beha.png';
 import inchcape from 'public/assets/images/inchcape.png';
 import prudential from 'public/assets/images/prudential.png';
 import icea from 'public/assets/images/icea.png';
-import swop from 'public/assets/images/swop.png';
+// import swop from 'public/assets/images/swop.png';
 import umi from 'public/assets/images/umi.png';
 import orthofit from 'public/assets/images/orthofit.png';
 import WorkTemp from './WorkTemp';
@@ -59,13 +59,13 @@ export default function Portfolio() {
               languages="WordPress"
             />
 
-            <WorkTemp
+            {/* <WorkTemp
               title="Telkom Kenya Website"
               image={Telkom}
               webUrl="https://telkom.co.ke/"
               gitUrl="#"
               languages="WordPress"
-            />
+            /> */}
 
             <WorkTemp
               title="Urban Policy Platform Website"
@@ -99,21 +99,21 @@ export default function Portfolio() {
               languages="WordPress"
             />
 
-            <WorkTemp
+            {/* <WorkTemp
               title="The LawDown Africa Website"
               image={down}
               webUrl="https://thelawdownafrica.com/"
               gitUrl="#"
               languages="WordPress"
-            />
+            /> */}
 
-            <WorkTemp
+            {/* <WorkTemp
               title="Support for Widows and Orphans Programme"
               image={swop}
               webUrl="https://supportforwidowsandorphansprogramme.org/"
               gitUrl="#"
               languages="WordPress"
-            />
+            /> */}
 
             <WorkTemp
               title="MangenyBuch E-Commerce Website"
